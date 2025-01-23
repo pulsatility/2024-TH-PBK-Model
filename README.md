@@ -16,7 +16,8 @@ Plasma thyroid hormone (TH) binding proteins (THBPs), including thyroxine-bindin
 **Keywords:** Thyroid hormone, Thyroxine-binding globulin, Transthyretin, Albumin, Tissue distribution, Gradient
 
 
-#  MATLAB Code for Spatial Human PBK Models of Thyroid Hormones
+
+#  MATLAB Code
 - TH_PBK_Spatial_CMD.m: Main MATLAB code to run the models and generate figures and tables.
 - TH_PBK_Spatial_ODE.m: MATLAB ODE code to be called by TH_PBK_Spatial_CMD.m.
 - TH_PBK_Spatial_ODE_Fig8.m: MATLAB ODE code to be called by TH_PBK_Spatial_CMD.m to generate Fig. 8.
