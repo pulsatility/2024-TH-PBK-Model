@@ -1,6 +1,13 @@
-To appear in Pflügers Archiv - European Journal of Physiology
+#  MATLAB Code for Spatial Human PBK Models of Thyroid Hormones
 
-MATLAB code coming soon...
+Purpose of files for spatial model published in Bagga M., Johnson B., and Zhang Q. (2025) 110.	Bagga M., Johnson B., and Zhang Q. (2025) Spatially Dependent Tissue Distribution of Thyroid Hormones by Plasma Thyroid Hormone Binding Proteins. Pflügers Archiv - European Journal of Physiology https://doi.org/10.1007/s00424-024-03060-6
+- TH_PBK_Spatial_CMD.m: Main MATLAB code to run the models and generate figures and tables.
+- TH_PBK_Spatial_ODE.m: MATLAB ODE code to be called by TH_PBK_Spatial_CMD.m.
+- TH_PBK_Spatial_ODE_Fig8.m: MATLAB ODE code to be called by TH_PBK_Spatial_CMD.m to generate Fig. 8.
+- TH_PBK_Spatial_ODE_gradient.m: MATLAB ODE code to be called by TH_PBK_Spatial_CMD.m to generate Fig. 10-12, S8-S11.
+- get_gradient_value.m: MATLAB code to be called by TH_PBK_Spatial_CMD.m to generate Fig. 10-12, S8-S11.
+- Matlab_code_FigS1.m: MATLAB code to generate Fig. S1.
+
 
 # Spatially Dependent Tissue Distribution of Thyroid Hormones by Plasma Thyroid Hormone Binding Proteins
 Anish D. Bagga<sup>1</sup>, Brian P. Johnson<sup>2</sup>, and Qiang Zhang<sup>3</sup>
